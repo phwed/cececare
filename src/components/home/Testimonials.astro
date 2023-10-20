@@ -1,0 +1,145 @@
+---
+import { content } from "@constants/content";
+import Section from "../container/Section.astro";
+import "keen-slider/keen-slider.min.css";
+---
+
+<div class="h-[70vh] bg-slate-300 image relative flex flex-col">
+  <div class="absolute inset-0 overlay"></div>
+
+  <div class="relative z-10 w-11/12 lg:w-9/12 flex flex-col text-white self-center text-center pt-[10rem] md:pt-[12rem] gap-4">
+    <h1 class="text-4xl px-3">
+      {content.testimonials.title}
+    </h1>
+
+    <p class="text-lg px-8 md:w-[80ch] self-center">
+      {content.testimonials.subtitle}
+    </p>
+
+  </div>
+
+  <div
+    class="absolute z-10 bottom-[-40rem] lg:bottom-[-20rem] w-full flex justify-center"
+  >
+    <div
+      class="w-11/12 lg:w-9/12 flex flex-col lg:flex-row rounded-lg overflow-clip"
+    >
+      <div
+        class="bg-brand-500 p-10 w-full lg:w-6/12 flex flex-col gap-5 text-white"
+      >
+        <p class="text-xl md:text-2xl lg:gap-10">
+          {content.testimonials.left.title}
+        </p>
+
+        <h1 class="text-3xl md:text-5xl font-bold">
+          {content.testimonials.left.header}
+        </h1>
+
+        <p class="text-base md:text-lg">
+          {content.testimonials.left.subtitle}
+        </p>
+
+        <div class="my-5">
+          <a
+            href="#contact-section"
+            class="bg-brand-700 px-8 py-3 rounded-md text-white font-bold text-md md:text-xl w-[20ch] md:w-[15ch] text-center mt-5"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="bg-neutral-100 p-10 w-full lg:w-6/12 overflow-clip min-h-[10rem]"
+      >
+        <div
+          id="carousel"
+          class="keen-slider flex flex-row w-full h-full"
+        >
+          {
+            content.testimonials.right.map((item) => (
+              <div class="keen-slider__slide flex flex-col gap-3 md:gap-5 justify-center">
+                <img
+                  src="/stars.png"
+                  class="h-[100px] w-[155px] ml-[-10px]"
+                />
+
+                <h1 class="text-md md:text-lg">{item.comment}</h1>
+
+                <div class="my-4 flex flex-row justify-between">
+                  <div class="flex flex-row gap-2 items-center">
+                    <img
+                      src={item.image}
+                      class="rounded-full h-16"
+                    />
+                    <div>
+                      <p class="text-md font-bold">{item.name}</p>
+                      <p class="text-sm">{item.position}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .image {
+    background-image: url(https://s3-alpha-sig.figma.com/img/fc02/3707/ec95b73e0797c0837ee904667b1d5b97?Expires=1698624000&Signature=hH~e0GMSada-MyQANm62EZTscOC7~kKenoPCJD7-VPO9ALBC9Cmlab322NxJNSoMoQrIZGI~jRMFWL2j~udNk~FpF~WSGZyQFBrCI2QiQdEBVCOnKzHDp1-5LWfQzgv1fmsNznHBIS6imF89lqdOwPnziKjuYdfXpP1xLmFegESU4ux19FBXKn~fWhsw-6zvEnPLwP~ceHzLbBYwHq5rHzOcHNPKsRI4DhLWvqHoq0yhdsTqjSXzZi5wQFwQi2gspqpFuO9tNsFXoHC~p5O2G1gCXiavzE5OC1r15FgUbOoLZUhTwP3kmhNZ5Xfjs8I8bh6JYWiYBi~C8QsU44WPlg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+</style>
+
+<script>
+  import KeenSlider from "keen-slider";
+
+  const slider = new KeenSlider(
+    "#carousel",
+    {
+      loop: true,
+      renderMode: "performance",
+      drag: true,
+      defaultAnimation: {
+        duration: 2000
+      }
+    },
+    [
+      (slider) => {
+        let timeout: number | undefined;
+        let mouseOver = false;
+        function clearNextTimeout() {
+          clearTimeout(timeout);
+        }
+        function nextTimeout() {
+          clearTimeout(timeout);
+          if (mouseOver) return;
+          timeout = setTimeout(() => {
+            slider.next();
+          }, 4000);
+        }
+        slider.on("created", () => {
+          slider.container.addEventListener("mouseover", () => {
+            mouseOver = true;
+            clearNextTimeout();
+          });
+          slider.container.addEventListener("mouseout", () => {
+            mouseOver = false;
+            nextTimeout();
+          });
+          nextTimeout();
+        });
+        slider.on("dragStarted", clearNextTimeout);
+        slider.on("animationEnded", nextTimeout);
+        slider.on("updated", nextTimeout);
+      }
+    ]
+  );
+</script>

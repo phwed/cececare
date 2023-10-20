@@ -1,0 +1,45 @@
+---
+import { content } from "@constants/content";
+import Main from "../container/Main.astro";
+import Section from "../container/Section.astro";
+---
+
+<Main
+  id="services-section"
+  className="bg-neutral-100 py-16 md:py-20"
+>
+  <Section className="">
+    <div class="flex flex-col w-full gap-8 items-start md:items-center">
+      <p class="text-brand-600 text-xl md:text-2xl">
+        {content.care.title}
+      </p>
+
+      <h1 class="text-3xl md:text-5xl font-bold">
+        {content.care.header}
+      </h1>
+
+      <p class="text-start md:text-center md:w-[90ch]">
+        {content.care.subtitle}
+      </p>
+
+      <!-- grid of three items -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+        {
+          content.care.service.map((item, index) => (
+            <div class="flex flex-col gap-5 p-4 bg-white rounded-xl">
+              <img
+                src={item.image}
+                alt={item.title}
+                class="rounded-xl"
+              />
+
+              <h1 class="text-center text-2xl font-bold">{item.title}</h1>
+
+              <p class="px-5 text-center mb-8">{item.subtitle}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </Section>
+</Main>

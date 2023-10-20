@@ -1,0 +1,38 @@
+{
+    "folders": [
+      {
+        "path": ".."
+      }
+    ],
+    "settings": {
+        "auto-close-tag.activationOnLanguage": [
+            "xml",
+            "php",
+            "blade",
+            "ejs",
+            "jinja",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+            "plaintext",
+            "markdown",
+            "vue",
+            "liquid",
+            "erb",
+            "lang-cfml",
+            "cfml",
+            "HTML (EEx)",
+            "HTML (Eex)",
+            "astro",
+            "plist"
+        ],
+      "prettier.documentSelectors": [
+        "**/*.astro"
+      ],
+      "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+    }
+  }
