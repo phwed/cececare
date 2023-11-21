@@ -13,18 +13,32 @@ import Section from "@components/container/Section.astro";
       />
     </div>
 
-    <div class="w-full md:w-6/12 flex flex-col justify-center gap-7">
-      <p class="text-brand-600 text-xl md:text-2xl">{content.welcome.title}</p>
+    <div class="w-full md:w-6/12 flex flex-col justify-center">
+      <p class="text-brand-600 text-xl md:text-2xl mb-2">{content.welcome.title}</p>
 
-      <h1 class="text-3xl md:text-5xl font-bold">
-        {content.welcome.header}
+      <p>
+        {content.welcome.about_us}
+      </p>
+
+
+      <h1 class="text-2xl md:text-3xl font-bold mt-4 mb-2">
+        {content.welcome.mission}
       </h1>
 
       <p>
-        {content.welcome.subtitle}
+        {content.welcome.mission_statement}
       </p>
 
-      <div class="flex flex-row flex-wrap">
+      <h1 class="text-2xl md:text-3xl font-bold mt-4 mb-2">
+        {content.welcome.vision}
+      </h1>
+
+      <p>
+        {content.welcome.vision_statement}
+      </p>
+
+
+      <!-- <div class="flex flex-row flex-wrap">
         {
           content.welcome.points.map((item) => (
             <div class="w-6/12 mb-2 flex gap-3 items-start">
@@ -49,7 +63,7 @@ import Section from "@components/container/Section.astro";
             </div>
           ))
         }
-      </div>
+      </div> -->
     </div>
   </Section>
 </Main>
