@@ -20,6 +20,7 @@ export const content = {
     contact_descriptoin: "United Kingdom.",
     address: "17 West Road,  Lancaster,  LA1 5PG",
     phone: "+44 7950 377186",
+    phone2: "+44 7964 863117",
     email: "info@cececareservices.com",
     socials: {
       facebook: "https://www.facebook.com/",
@@ -95,7 +96,7 @@ export const content = {
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
         title: "Dementia Care",
         subtitle:
-          "Parents can rely on our Services for high-quality childcare solutions. This includes nurturing and safe environments, educational support, and activities tailored to children's developmental stages and needs."
+          "We stand as a shining example in the realm of dementia care, providing exceptional care for individuals dealing with dementia. Our approach is not just about fulfilling tasks; it's about fostering a profound sense of empathy, understanding, and genuine connection with those in our care. One of our remarkable qualities is our ability to communicate effectively and compassionately with those experiencing dementia by employing various techniques, including patience, active listening, and non-verbal communication, to establish trust and create a comfortable environment for her clients."
       },
       {
         image:
@@ -110,15 +111,15 @@ export const content = {
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
         title: "Supported Living",
         subtitle:
-          "Parents caour success hinges on the expertise and compassion of its caregivers. They should be well-trained, certified, and have a genuine passion for providing care. Regular training and ongoing professional development are essential to maintain high-quality standardsn rely on our Services for high-quality childcare solutions. This includes nurturing and safe environments, educational support, and activities tailored to children's developmental stages and needs."
+          "We exemplify the pinnacle of exceptional service in the realm of supported living caregiving, setting a gold standard that others aspire to reach. Our unwavering commitment, compassion, and expertise in assisting individuals with unique needs within a supported living environment makes us an invaluable asset. Our dedication to understanding the specific requirements of each individual under our care is unparalleled."
       },
 
       {
         image:
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
-        title: "Autism(people with learning difficulty",
+        title: "Autism(people with learning difficulty)",
         subtitle:
-          "we recognize the challenges that family caregivers often face. To offer relief and support, they can provide respite care, allowing primary caregivers to take a break while ensuring that their loved ones are well cared for.Parents caour success hinges on the expertise and compassion of its caregivers. ."
+          " Our dedication to providing exceptional care for individuals with autism is truly remarkable. We are passionate about understanding the unique needs of each person we support. We don’t just view our role as a job; rather, we see it as an opportunity to make a meaningful difference in the lives of those we assist. Our approach to caregiving is rooted in empathy and patience.. ."
       },
       
     ]
@@ -135,6 +136,7 @@ export const content = {
     ],
     call: "Clarify Your Queries Call Us Now",
     phone: "+44 7950 377186",
+    phone2: "+44 7964 863117",
     phoneLink: "tel:<number>",
     slogan: "The client Is First Priority In Our Passion"
   },
@@ -152,7 +154,7 @@ export const content = {
         "Sed congue mollis orci et tempus. Etiam semper elit id turpis ornare posuere a sit amet elit. Nulla facilisi. Nullam augue lectus, lobortis et risus id, ornare porttitor arcu. Pellentesque habitant morbi tristique senectus et netus."
     },
     right: [
-      {
+      /*{
         comment:
           "testimony 3.",
         name: "Ezekiel Addison-Otoo",
@@ -173,7 +175,7 @@ export const content = {
         name: "Godfred Somuah",
         position: "CEO, Soluble tech",
         image: "https://i.pravatar.cc/150?u=thirdimage"
-      }
+      }*/
     ]
   },
 
