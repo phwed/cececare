@@ -1,24 +1,26 @@
 export const content = {
-  opening_hours: "Openning Hours: 9am - 5pm",
+  opening_hours: "Opening Hours: 9am - 5pm",
   whatsapp: "https://wa.me/<+44 7950 377186>",
   phone: "tel:<+44 7950 377186>",
-  email: "mailto:<info@cececare.com>",
+  email: "mailto:<info@cececareservices.com>",
   book_an_appointment: "Download form",
   download_link: "/application form.pdf",
+  book_an_appointment2: "Download timesheet",
+  download_link: "/time sheet.pdf",
   header: {
     home: "Home",
     about: "About Us",
     service: "Services",
+    contact: "Contact Us",
     contact: "Contact Us"
   },
   footer: {
     leading: "Give Your Loved Ones Quality Care You Can Trust",
     copyright: "©Copyright 2023. All Rights Reserved. Soluble tech",
-    contact_descriptoin:
-      "United Kindom.",
+    contact_descriptoin: "United Kingdom.",
     address: "17 West Road,  Lancaster,  LA1 5PG",
     phone: "+44 7950 377186",
-    email: "info@cececare.com",
+    email: "info@cececareservices.com",
     socials: {
       facebook: "https://www.facebook.com/",
       twitter: "https://www.twitter.com/",
@@ -45,11 +47,11 @@ export const content = {
         image: "../assets/Icon-1.svg"
       },
       {
-        name: "Child Care",
+        name: "Dementia Care",
         image: "../assets/Icon.svg"
       },
       {
-        name: "People With Disabilities",
+        name: "Disability Care",
         image: "../assets/Icon-2.svg"
       }
     ]
@@ -91,14 +93,14 @@ export const content = {
       {
         image:
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
-        title: "Child Care",
+        title: "Dementia Care",
         subtitle:
           "Parents can rely on our Services for high-quality childcare solutions. This includes nurturing and safe environments, educational support, and activities tailored to children's developmental stages and needs."
       },
       {
         image:
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-doctor-examining-a-senior-woman-2021-08-26-12-07-48-utc.jpg",
-        title: "People With Disabilities",
+        title: "Disability Care",
         subtitle:
           "we are dedicated to offering specialized care for individuals with disabilities. This may encompass physical disabilities, developmental disorders, or cognitive impairments. The services may include personal care, therapy support, and creating inclusive activities for social engagement..",
         link: "/services/pwd-care"
@@ -106,7 +108,7 @@ export const content = {
       {
         image:
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
-        title: "Skilled Caregivers",
+        title: "Supported Living",
         subtitle:
           "Parents caour success hinges on the expertise and compassion of its caregivers. They should be well-trained, certified, and have a genuine passion for providing care. Regular training and ongoing professional development are essential to maintain high-quality standardsn rely on our Services for high-quality childcare solutions. This includes nurturing and safe environments, educational support, and activities tailored to children's developmental stages and needs."
       },
@@ -114,7 +116,7 @@ export const content = {
       {
         image:
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
-        title: "Respite Care",
+        title: "Autism(people with learning difficulty",
         subtitle:
           "we recognize the challenges that family caregivers often face. To offer relief and support, they can provide respite care, allowing primary caregivers to take a break while ensuring that their loved ones are well cared for.Parents caour success hinges on the expertise and compassion of its caregivers. ."
       },
