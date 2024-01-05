@@ -147,9 +147,9 @@ export const content = {
     },
     right: [
       {
-        comment: " ",
+        comment: "Testimony     ",
         name: "Mrs. Gladys Addison-Otoo",
-        position: " ",
+        position: "CEO, Soluble rose ",
         image: "https://i.pravatar.cc/150?u=firstimage"
       },
 
