@@ -91,14 +91,14 @@ export const content = {
       },
       {
         image:
-          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
+          "../assets/dementia.jpg",
         title: "Dementia Care",
         subtitle:
           "We stand as a shining example in the realm of dementia care, providing exceptional care for individuals dealing with dementia. Our approach is not just about fulfilling tasks; it's about fostering a profound sense of empathy, understanding, and genuine connection with those in our care. One of our remarkable qualities is our ability to communicate effectively and compassionately with those experiencing dementia by employing various techniques, including patience, active listening, and non-verbal communication, to establish trust and create a comfortable environment for her clients."
       },
       {
         image:
-          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-doctor-examining-a-senior-woman-2021-08-26-12-07-48-utc.jpg",
+          "../assets/disability.jpg",
         title: "Disability Care",
         subtitle:
           "we are dedicated to offering specialized care for individuals with disabilities. This may encompass physical disabilities, developmental disorders, or cognitive impairments. The services may include personal care, therapy support, and creating inclusive activities for social engagement..",
@@ -114,7 +114,7 @@ export const content = {
 
       {
         image:
-          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
+          "../assets/autism.jpg",
         title: "Autism(people with learning difficulty)",
         subtitle:
           " Our dedication to providing exceptional care for individuals with autism is truly remarkable. We are passionate about understanding the unique needs of each person we support. We don’t just view our role as a job; rather, we see it as an opportunity to make a meaningful difference in the lives of those we assist. Our approach to caregiving is rooted in empathy and patience.. ."
@@ -147,7 +147,7 @@ export const content = {
     },
     right: [
       {
-        comment: "Testimony     ",
+        comment: "I really love Cece care services, they are the best!!!",
         name: "Mrs. Gladys Addison-Otoo",
         position: "CEO, Soluble rose ",
         image: "https://i.pravatar.cc/150?u=firstimage"
