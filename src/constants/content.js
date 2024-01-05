@@ -143,13 +143,13 @@ export const content = {
       title: "What They Say ?",
       header: "Love To Serve You, With Compassionate Care",
       subtitle:
-        "Sed congue mollis orci et tempus. Etiam semper elit id turpis ornare posuere a sit amet elit. Nulla facilisi. Nullam augue lectus, lobortis et risus id, ornare porttitor arcu. Pellentesque habitant morbi tristique senectus et netus."
+        "In a bustling city where time never seems to slow down, we are a haven of solace and care. We are not just an ordinary establishment, but a sanctuary where compassion and care flourish. Under our guidance, there is a beacon of empathy in a world that often feels cold and indifferent."
     },
     right: [
       {
-        comment: "testimony 3.",
-        name: "Ezekiel Addison-Otoo",
-        position: "CEO, Besco",
+        comment: " ",
+        name: "Mrs. Gladys Addison-Otoo",
+        position: " ",
         image: "https://i.pravatar.cc/150?u=firstimage"
       },
 
@@ -174,15 +174,15 @@ export const content = {
     steps: [
       {
         title: "Book Your Appointment",
-        subtitle: "appointment text."
+        subtitle: " ."
       },
       {
         title: "In Person Counselling",
-        subtitle: "conselling text."
+        subtitle: "."
       },
       {
         title: "Weekly Followup",
-        subtitle: "follow up text."
+        subtitle: " ."
       }
     ]
   }
