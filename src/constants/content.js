@@ -39,8 +39,7 @@ export const content = {
     image:
       "https://s3-alpha-sig.figma.com/img/e185/1ea7/961dcb0b148e719c2b333c6d7c24f9d3?Expires=1698624000&Signature=edp6UVN4wadNp5fIgI~lP5682mY0wzEz8YLo7L3H5PLfSNiYxhM32wWyLf2dKh0OacXqKOqBsglEqY-5N~a3~EilmHRatpDW~j9cq~Ny4QmlaRsu71AyaQFomLpDbdtcp0CAoD9HpUPXvZ1T24raShCc-B3fnBxlxGUEzQM8REdCheC5AYp2GyV8Q3UD2uikOKeY-Z0zcFXYTT6oHtOcDKTiEmbx9cFZhOCF9vcmVnTvQxPPi9vZSgXsKGTqwV4mKq7O4m4TjvvY6YzkAk7tW2Cvmgkl-oVmcISXJ6KpyVlUAJ1G7DViT4bptRKlAidhME7M7R1fgaHYeiNgzxYTug__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     title: "Providing quality care that transforms lives",
-    subtitle:
-      "",
+    subtitle: "",
     learn_more: "Learn More",
     services: [
       {
@@ -60,11 +59,11 @@ export const content = {
   welcome: {
     title: "ABOUT US",
     about_us:
-    "At CeCe Care Services, we think that kindness, commitment, and steadfast support can make a difference in the lives of people in all walks of life. Our goal is to improve the lives of our clients by offering them outstanding care services, whether they are elderly people reaching their prime, young children just starting out in the world, or disabled people pursuing self-determination and empowerment." +
-    "We have developed a care service that is as varied as the needs of our clients because we have a strong commitment to promoting well-being and improving quality of life. Every person in our care will get exceptional support and companionship from our compassionate and skilled team of carers." +
-    "Our customized approach is what distinguishes CeCe Care Services.",
-    mission: "MISSION",
-    vision: "VISION",
+      "At CeCe Care Services, we think that kindness, commitment, and steadfast support can make a difference in the lives of people in all walks of life. Our goal is to improve the lives of our clients by offering them outstanding care services, whether they are elderly people reaching their prime, young children just starting out in the world, or disabled people pursuing self-determination and empowerment." +
+      "We have developed a care service that is as varied as the needs of our clients because we have a strong commitment to promoting well-being and improving quality of life. Every person in our care will get exceptional support and companionship from our compassionate and skilled team of carers." +
+      "Our customized approach is what distinguishes CeCe Care Services.",
+    mission: "Mission",
+    vision: "Vision",
     mission_statement:
       "CeCe Care Services prioritizes clients' physical, emotional, and social well-being, providing individualized, empathetic, and comprehensive care through teamwork, creativity, and a strong sense of duty.",
     vision_statement:
@@ -80,8 +79,7 @@ export const content = {
   },
   care: {
     title: "OUR SERVICES",
-    subtitle:
-      "we offfer a wide range of services which includes.",
+    subtitle: "we offfer a wide range of services which includes.",
     service: [
       {
         image:
@@ -93,14 +91,14 @@ export const content = {
       },
       {
         image:
-          "../assets/dementia.jpg",
+          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
         title: "Dementia Care",
         subtitle:
           "We stand as a shining example in the realm of dementia care, providing exceptional care for individuals dealing with dementia. Our approach is not just about fulfilling tasks; it's about fostering a profound sense of empathy, understanding, and genuine connection with those in our care. One of our remarkable qualities is our ability to communicate effectively and compassionately with those experiencing dementia by employing various techniques, including patience, active listening, and non-verbal communication, to establish trust and create a comfortable environment for her clients."
       },
       {
         image:
-          "../assets/disablility.jpg",
+          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-doctor-examining-a-senior-woman-2021-08-26-12-07-48-utc.jpg",
         title: "Disability Care",
         subtitle:
           "we are dedicated to offering specialized care for individuals with disabilities. This may encompass physical disabilities, developmental disorders, or cognitive impairments. The services may include personal care, therapy support, and creating inclusive activities for social engagement..",
@@ -116,24 +114,18 @@ export const content = {
 
       {
         image:
-          "../assets/autism.jpg",
+          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
         title: "Autism(people with learning difficulty)",
         subtitle:
           " Our dedication to providing exceptional care for individuals with autism is truly remarkable. We are passionate about understanding the unique needs of each person we support. We don’t just view our role as a job; rather, we see it as an opportunity to make a meaningful difference in the lives of those we assist. Our approach to caregiving is rooted in empathy and patience.. ."
-      },
-      
+      }
     ]
   },
   why: {
-     title: "WHY US",
+    title: "WHY US",
     subtitle:
       "Our commitment lies in delivering outstanding in-home care services that put our clients' comfort and well-being first. Our dedication is motivated by a strong conviction in the value of individualized care, in which each person is shown respect, decency, and compassion. Topmost of our priorities are our clients :",
-    points: [
-      "Safety",
-      "Independence",
-      "Happiness",
-      "Comfort"
-    ],
+    points: ["Safety", "Independence", "Happiness", "Comfort"],
     call: "Clarify Your Queries Call Us Now",
     phone: "+44 7950 377186",
     phone2: "+44 7964 863117",
@@ -155,23 +147,20 @@ export const content = {
     },
     right: [
       {
-        comment:
-          "testimony 3.",
+        comment: "testimony 3.",
         name: "Ezekiel Addison-Otoo",
         position: "CEO, Besco",
         image: "https://i.pravatar.cc/150?u=firstimage"
       },
 
       // {
-      //   comment:
-      //     "testimony2, .",
+      //   comment: "testimony2, .",
       //   name: "Gladys Addison-Otoo",
       //   position: "CEO, Company",
       //   image: "https://i.pravatar.cc/150?u=secondimage"
       // },
       // {
-      //   comment:
-      //     "testimony 1, .",
+      //   comment: "testimony 1, .",
       //   name: "Godfred Somuah",
       //   position: "CEO, Soluble tech",
       //   image: "https://i.pravatar.cc/150?u=thirdimage"
@@ -185,18 +174,15 @@ export const content = {
     steps: [
       {
         title: "Book Your Appointment",
-        subtitle:
-          "appointment text."
+        subtitle: "appointment text."
       },
       {
         title: "In Person Counselling",
-        subtitle:
-          "conselling text."
+        subtitle: "conselling text."
       },
       {
         title: "Weekly Followup",
-        subtitle:
-          "follow up text."
+        subtitle: "follow up text."
       }
     ]
   }
