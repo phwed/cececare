@@ -63,8 +63,8 @@ export const content = {
     "At CeCe Care Services, we think that kindness, commitment, and steadfast support can make a difference in the lives of people in all walks of life. Our goal is to improve the lives of our clients by offering them outstanding care services, whether they are elderly people reaching their prime, young children just starting out in the world, or disabled people pursuing self-determination and empowerment." +
     "We have developed a care service that is as varied as the needs of our clients because we have a strong commitment to promoting well-being and improving quality of life. Every person in our care will get exceptional support and companionship from our compassionate and skilled team of carers." +
     "Our customized approach is what distinguishes CeCe Care Services.",
-    mission: "Mission",
-    vision: "Vision",
+    mission: "MISSION",
+    vision: "VISION",
     mission_statement:
       "CeCe Care Services prioritizes clients' physical, emotional, and social well-being, providing individualized, empathetic, and comprehensive care through teamwork, creativity, and a strong sense of duty.",
     vision_statement:
@@ -93,14 +93,14 @@ export const content = {
       },
       {
         image:
-          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
+          "../assets/dementia.jpg",
         title: "Dementia Care",
         subtitle:
           "We stand as a shining example in the realm of dementia care, providing exceptional care for individuals dealing with dementia. Our approach is not just about fulfilling tasks; it's about fostering a profound sense of empathy, understanding, and genuine connection with those in our care. One of our remarkable qualities is our ability to communicate effectively and compassionately with those experiencing dementia by employing various techniques, including patience, active listening, and non-verbal communication, to establish trust and create a comfortable environment for her clients."
       },
       {
         image:
-          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-doctor-examining-a-senior-woman-2021-08-26-12-07-48-utc.jpg",
+          "../assets/disablility.jpg",
         title: "Disability Care",
         subtitle:
           "we are dedicated to offering specialized care for individuals with disabilities. This may encompass physical disabilities, developmental disorders, or cognitive impairments. The services may include personal care, therapy support, and creating inclusive activities for social engagement..",
@@ -116,7 +116,7 @@ export const content = {
 
       {
         image:
-          "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
+          "../assets/autism.jpg",
         title: "Autism(people with learning difficulty)",
         subtitle:
           " Our dedication to providing exceptional care for individuals with autism is truly remarkable. We are passionate about understanding the unique needs of each person we support. We don’t just view our role as a job; rather, we see it as an opportunity to make a meaningful difference in the lives of those we assist. Our approach to caregiving is rooted in empathy and patience.. ."
@@ -154,7 +154,7 @@ export const content = {
         "Sed congue mollis orci et tempus. Etiam semper elit id turpis ornare posuere a sit amet elit. Nulla facilisi. Nullam augue lectus, lobortis et risus id, ornare porttitor arcu. Pellentesque habitant morbi tristique senectus et netus."
     },
     right: [
-      /*{
+      {
         comment:
           "testimony 3.",
         name: "Ezekiel Addison-Otoo",
@@ -162,20 +162,20 @@ export const content = {
         image: "https://i.pravatar.cc/150?u=firstimage"
       },
 
-      {
-        comment:
-          "testimony2, .",
-        name: "Gladys Addison-Otoo",
-        position: "CEO, Company",
-        image: "https://i.pravatar.cc/150?u=secondimage"
-      },
-      {
-        comment:
-          "testimony 1, .",
-        name: "Godfred Somuah",
-        position: "CEO, Soluble tech",
-        image: "https://i.pravatar.cc/150?u=thirdimage"
-      }*/
+      // {
+      //   comment:
+      //     "testimony2, .",
+      //   name: "Gladys Addison-Otoo",
+      //   position: "CEO, Company",
+      //   image: "https://i.pravatar.cc/150?u=secondimage"
+      // },
+      // {
+      //   comment:
+      //     "testimony 1, .",
+      //   name: "Godfred Somuah",
+      //   position: "CEO, Soluble tech",
+      //   image: "https://i.pravatar.cc/150?u=thirdimage"
+      // }
     ]
   },
 
