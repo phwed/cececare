@@ -1,0 +1,44 @@
+---
+import { content } from "@constants/content";
+---
+<div class=" z-10 flex w-full  justify-center">
+    <div
+      class="bg-brand-600 w-11/12 md:w-10/12 lg:w-9/12 rounded-xl overflow-clip flex flex-row flex-wrap"
+    >
+      {
+        content.banner.services.map((service, index) => {
+          return (
+            <div
+              class={`w-full ${
+                index != 2 ? "md:w-6/12" : "md:w-full"
+              } lg:w-4/12 p-8 flex flex-row gap-3 items-center ${
+                index == 0
+                  ? "bg-brand-600"
+                  : index == 1
+                  ? "bg-brand-500"
+                  : "bg-brand-400"
+              }`}
+            >
+              <div
+                class={`${
+                  index !== 2 ? "bg-brand-400" : "bg-brand-500"
+                } px-3 py-[15px] flex items-center justify-center rounded-full flex-shrink-0`}
+              >
+                <img
+                  class="w-[2.5rem] h-[2.5rem] ml-[.35rem] resize-none"
+                  src={service.image}
+                />
+              </div>
+
+              <h1 class="text-3xl md:text-3xl text-white w-full">
+                {service.name}
+              </h1>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+<style>
+
+</style>
