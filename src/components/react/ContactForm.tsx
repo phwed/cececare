@@ -6,7 +6,7 @@ export default function ContactForm() {
   const [number, setNumber] = React.useState("");
   const [message, setMessage] = React.useState("");
 
-  const whatsappNumber = "+233594599267";
+  const whatsappNumber = "+447706232425";
 
   const sendWhatsappMessage = () => {
     // construct a messge for wa.me API with the help of template literals
