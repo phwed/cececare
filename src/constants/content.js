@@ -2,7 +2,7 @@ export const content = {
   opening_hours: "Opening Hours: 9am - 5pm",
   whatsapp: "https://wa.me/+447706232425",
   phone: "tel:+447706232425",
-  email: "mailto:<info@cececareservices.com>",
+  email: "mailto:info@cececareservices.com",
   book_an_appointment: "Download form",
   download_link: "/application form.pdf",
   book_an_appointment2: "Download timesheet",
