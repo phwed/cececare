@@ -6,6 +6,28 @@ export default function ContactForm() {
   const [number, setNumber] = React.useState("");
   const [message, setMessage] = React.useState("");
 
+  const whatsappNumber = "+233594599267";
+
+  const sendWhatsappMessage = () => {
+    // construct a messge for wa.me API with the help of template literals
+    const textMessage = `Hi, I am ${name}. With email: ${email} and number: ${number}. I wanted to reach out to you with this message from your website: ${message}`;
+
+    // encode the message for URL
+    const encodedMessage = encodeURI(textMessage);
+
+    // construct the URL
+    const url = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    // open the URL in a new tab
+    window.open(url, "_blank");
+
+    // reset the form
+    setName("");
+    setEmail("");
+    setNumber("");
+    setMessage("");
+  };
+
   return (
     <form className="flex flex-col gap-5 md:gap-8">
       <p className="text-white text-xl md:text-2xl">Fill The Form</p>
@@ -49,6 +71,10 @@ export default function ContactForm() {
         <button
           type="submit"
           className="bg-brand-700 text-white text-lg md:text-xl py-2 px-5 rounded"
+          onClick={(e) => {
+            e.preventDefault();
+            sendWhatsappMessage();
+          }}
         >
           Send Message
         </button>
