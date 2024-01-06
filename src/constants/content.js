@@ -1,7 +1,7 @@
 export const content = {
   opening_hours: "Opening Hours: 9am - 5pm",
-  whatsapp: "https://wa.me/<+44 7950 377186>",
-  phone: "tel:<+44 7950 377186>",
+  whatsapp: "https://wa.me/<+44 7706 232425>",
+  phone: "tel:<+44 7706 232425>",
   email: "mailto:<info@cececareservices.com>",
   book_an_appointment: "Download form",
   download_link: "/application form.pdf",
@@ -19,7 +19,7 @@ export const content = {
     copyright: "©Copyright 2023. All Rights Reserved. Soluble tech",
     contact_descriptoin: "United Kingdom.",
     address: "17 West Road,  Lancaster,  LA1 5PG",
-    phone: "+44 7950 377186",
+    phone: "+44 7706 232425",
     phone2: "+44 7964 863117",
     email: "info@cececareservices.com",
     socials: {
@@ -127,7 +127,7 @@ export const content = {
       "Our commitment lies in delivering outstanding in-home care services that put our clients' comfort and well-being first. Our dedication is motivated by a strong conviction in the value of individualized care, in which each person is shown respect, decency, and compassion. Topmost of our priorities are our clients :",
     points: ["Safety", "Independence", "Happiness", "Comfort"],
     call: "Clarify Your Queries Call Us Now",
-    phone: "+44 7950 377186",
+    phone: "+44 7706 232425",
     phone2: "+44 7964 863117",
     phoneLink: "tel:<number>",
     slogan: "The client Is First Priority In Our Passion"
