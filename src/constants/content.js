@@ -107,9 +107,9 @@ export const content = {
       {
         image:
           "https://tykit.rometheme.pro/seniorsy/wp-content/uploads/sites/78/2022/08/female-care-worker-in-uniform-bringing-meal-on-tra-2022-04-04-21-27-31-utc.jpg",
-        title: "Supported Living",
+        title: "End of Life Care",
         subtitle:
-          "We exemplify the pinnacle of exceptional service in the realm of supported living caregiving, setting a gold standard that others aspire to reach. Our unwavering commitment, compassion, and expertise in assisting individuals with unique needs within a supported living environment makes us an invaluable asset. Our dedication to understanding the specific requirements of each individual under our care is unparalleled."
+          " We stand as the epitome of extraordinary service in the sphere of end-of-life care, establishing a gold standard that inspires others in the field. Our unyielding commitment, boundless compassion, and profound expertise in supporting individuals during this sensitive phase make us an invaluable resource. We hold an unwavering dedication to comprehending the distinctive needs and wishes of each individual in our care, setting a level of understanding and support that is unmatched.."
       },
 
       {
@@ -119,6 +119,15 @@ export const content = {
         subtitle:
           " Our dedication to providing exceptional care for individuals with autism is truly remarkable. We are passionate about understanding the unique needs of each person we support. We don’t just view our role as a job; rather, we see it as an opportunity to make a meaningful difference in the lives of those we assist. Our approach to caregiving is rooted in empathy and patience.. ."
       }
+        
+      ,{
+        image:
+          "../assets/HouseKeeping.jpg",
+        title: "House Keeping",
+        subtitle:
+          " As the embodiment of unparalleled excellence in the domain of housekeeping, setting a gold standard service that inspires others in the industry is our hall mark. Our steadfast commitment, genuine compassion, and extensive expertise in maintaining and enhancing living spaces make us an indispensable asset. We prioritize understanding the unique preferences and needs of every individual space under our care, ensuring a level of service and attention to detail that is unmatched."
+      }
+        
     ]
   },
   why: {
