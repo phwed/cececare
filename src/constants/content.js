@@ -61,11 +61,11 @@ export const content = {
     about_us:
       "At CeCe Care Services, we think that kindness, commitment, and steadfast support can make a difference in the lives of people in all walks of life. Our goal is to improve the lives of our clients by offering them outstanding care services, whether they are elderly people reaching their prime, young children just starting out in the world, or disabled people pursuing self-determination and empowerment." +
       "We have developed a care service that is as varied as the needs of our clients because we have a strong commitment to promoting well-being and improving quality of life. Every person in our care will get exceptional support and companionship from our compassionate and skilled team of carers." +
-      "Our customized approach is what distinguishes CeCe Care Services.",
+      "Our customised approach is what distinguishes CeCe Care Services.",
     mission: "Mission",
     vision: "Vision",
     mission_statement:
-      "CeCe Care Services prioritizes clients' physical, emotional, and social well-being, providing individualized, empathetic, and comprehensive care through teamwork, creativity, and a strong sense of duty.",
+      "CeCe Care Services prioritises clients' physical, emotional, and social well-being, providing individualised, empathetic, and comprehensive care through teamwork, creativity, and a strong sense of duty.",
     vision_statement:
       "We aim to create a society where every individual with a disability, children, and adults enjoys dignity, compassion, and limitless opportunities, fostering empathy, inclusion, and support.",
     points: [
@@ -101,7 +101,7 @@ export const content = {
           "../assets/disability.jpg",
         title: "Disability Care",
         subtitle:
-          "we are dedicated to offering specialized care for individuals with disabilities. This may encompass physical disabilities, developmental disorders, or cognitive impairments. The services may include personal care, therapy support, and creating inclusive activities for social engagement..",
+          "we are dedicated to offering specialised care for individuals with disabilities. This may encompass physical disabilities, developmental disorders, or cognitive impairments. The services may include personal care, therapy support, and creating inclusive activities for social engagement..",
         link: "/services/pwd-care"
       },
       {
@@ -124,7 +124,7 @@ export const content = {
   why: {
     title: "WHY US",
     subtitle:
-      "Our commitment lies in delivering outstanding in-home care services that put our clients' comfort and well-being first. Our dedication is motivated by a strong conviction in the value of individualized care, in which each person is shown respect, decency, and compassion. Topmost of our priorities are our clients :",
+      "Our commitment lies in delivering outstanding in-home care services that put our clients' comfort and well-being first. Our dedication is motivated by a strong conviction in the value of individualised care, in which each person is shown respect, decency, and compassion. Topmost of our priorities are our clients :",
     points: ["Safety", "Independence", "Happiness", "Comfort"],
     call: "Clarify Your Queries Call Us Now",
     phone: "+44 7706 232425",
