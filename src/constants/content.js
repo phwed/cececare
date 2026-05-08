@@ -18,7 +18,7 @@ export const content = {
     leading: "Give Your Loved Ones Quality Care You Can Trust",
     copyright: "©Copyright 2023. All Rights Reserved. Soluble tech",
     contact_descriptoin: "United Kingdom.",
-    address: "17 West Road,  Lancaster,  LA1 5PG",
+    address: "203 Riverway House Morecambe Road Lancaster, LA1 2XR",
     phone: "+44 7706 232425",
     phone2: "+44 7964 863117",
     email: "info@cececareservices.com",
